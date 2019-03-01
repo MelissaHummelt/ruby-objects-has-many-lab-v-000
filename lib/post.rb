@@ -4,4 +4,8 @@ class Post
     @title = title
     @@all << @title
   end
+
+  def self.all
+    @@all
+  end
 end
