@@ -2,6 +2,6 @@ class Post
   @@all = []
   def initialize(title)
     @title = title
-    @@all << title
+    @@all << @title
   end
 end
